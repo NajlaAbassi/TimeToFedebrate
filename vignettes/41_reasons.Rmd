@@ -1,0 +1,28 @@
+---
+title: "41 reasons..."
+author: >
+  Najla Abassi, Lotta Wagner, Ahmed Salah, AnneKathrin Nedwed and Alicia Schulze </br>
+  University Medical Center - Mainz (Germany)
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    code_folding: show
+    number_sections: true
+    theme: lumen
+vignette: >
+  %\VignetteIndexEntry{01. time-to-Fedebrate}
+  %\VignettePackage{time-to-Fedebrate}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+```{r}
+library("time-to-Fedebrate")
+```
+
+```{r}
+we_depend_on_you(1)
+```
+
