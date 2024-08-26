@@ -5,24 +5,28 @@ Authors@R:
     c(
       person(given = "Najla",
              family = "Abassi",
-             role = c("aut", "cre")),
+             role = c("aut", "cre"),
+             email = "abassi.nejla96@gmail.com"),
       person(given = "Lotta",
              family = "Wagner",
-             role = c("aut")),
+             role = c("aut"),
+             email = "wagnerlo@uni-mainz.de"),
       person(given = "Ahmed",
              family = "Salah",
-             role = c("aut")),
-      person(given = "Annekathrin",
-             family = "Nedwed",
-             role = c("aut")),
-      person(given = "Alicia",
-             family = "Schulze",
              role = c("aut"),
-             email = "abassi.nejla96@gmail.com")
+             email = "ahmedsalahtvi@gmail.com"),
+      person(given = "Annekathrin",
+             family = "Ludt",
+             role = c("aut"),
+             email = "anneludt@uni-mainz.de"),
+      person(given = "Alicia",
+             family = "Poplawski",
+             role = c("aut"),
+             email = "alpoplaw@uni-mainz.de")
      )
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+VignetteBuilder: knitr
