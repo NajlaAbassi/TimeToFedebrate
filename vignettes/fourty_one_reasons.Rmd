@@ -1,7 +1,7 @@
 ---
 title: "41 reasons..."
 author: >
-  Najla Abassi, Lotta Wagner, Ahmed Salah, AnneKathrin Nedwed and Alicia Schulze </br>
+  Najla Abassi, Lotta Wagner, Ahmed Salah, AnneKathrin Ludt and Alicia Poplawski </br>
   University Medical Center - Mainz (Germany)
 output: 
   html_document:
@@ -10,9 +10,9 @@ output:
       collapsed: false
     code_folding: show
     number_sections: true
-    theme: lumen
+    theme: cosmo
 vignette: >
-  %\VignetteIndexEntry{01. TimeToFedebrate}
+  %\VignetteIndexEntry{fourty_one_reasons}
   %\VignettePackage{TimeToFedebrate}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
@@ -23,7 +23,7 @@ This small function/package was created to celebrate the 41th birthday of Federi
 Let's start by loading the library:
 
 ```{r}
-library("time-to-Fedebrate")
+library("TimeToFedebrate")
 ```
 
 Then, all you have to do is play with numbers. Let's start with reason number 1:

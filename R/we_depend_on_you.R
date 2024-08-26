@@ -26,7 +26,7 @@ we_depend_on_you <- function(reason) {
     "you do the bioinformatics things the right way",
     "you know how to encourage us :D ",
     "you love puns",
-    "iSEEu everyday 🫶",
+    "iSEEu everyday",
     "we like to drink GENE TONIC with you",
     "you will one day lead the dependencies in wining pubquiz",
     ": there are three in Caciocavallo , two in Lecco, none in the IMBEI, but one in Federico",
@@ -50,7 +50,7 @@ we_depend_on_you <- function(reason) {
     "you remember every name",
     "you have forensic eyes",
     "you have a cool weapon behind your door",
-    "you have an onion on your … (“https://youtu.be/3Y3dWfa1sCo?si=UVybEzIAkc0eNFVD”)"
+    "you have an onion on your … (<a href='https://youtu.be/3Y3dWfa1sCo?si=UVybEzIAkc0eNFVD'>click here</a>)"
   )
   
   if (reason > 0 && reason <= length(reasons)) {
