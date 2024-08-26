@@ -8,7 +8,7 @@ remotes::install_github("NajlaAbassi/time-to-Fedebrate",
                         build_vignettes = TRUE)
 ```
 
-## How to best run this repo?
+## How to best use this repo?
 
 + Open the `time-to-Fedebrate.Rproj` project file
 + Navigate to the `vignettes` folder
