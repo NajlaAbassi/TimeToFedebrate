@@ -1,8 +1,8 @@
-#' we depend on you
+#' we "depend" on you
 #'
 #' @param reason a numeric equals your age representing the reasons why we appreciate you 
 #'
-#' @return
+#' @return a reason why we appreciate you
 #' @export
 #'
 #' @examples
@@ -29,7 +29,7 @@ we_depend_on_you <- function(reason) {
     "iSEEu everyday 🫶",
     "we like to drink GENE TONIC with you",
     "you will one day lead the dependencies in wining pubquiz",
-    ":there are three in Caciocavallo , two in Lecco, none in the IMBEI, but one in Federico",
+    ": there are three in Caciocavallo , two in Lecco, none in the IMBEI, but one in Federico",
     "you have the greatest Mate collection ",
     "you have a dream, that one day the server session is infinite",
     "you lead the group ANAL-A-omics",
@@ -54,9 +54,9 @@ we_depend_on_you <- function(reason) {
   )
   
   if (reason > 0 && reason <= length(reasons)) {
-    cat("... because ", reasons[reason], "\n")
+    return(paste("... because ", reasons[reason]))
   } else {
-    cat("bro you're 41, so it's 41 reasons... what are you looking for?")
+    return("bro you're 41, so it's 41 reasons... what are you looking for?")
   }
   
 }
