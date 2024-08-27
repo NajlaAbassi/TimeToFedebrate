@@ -16,17 +16,23 @@ Authors@R:
              role = c("aut"),
              email = "ahmedsalahtvi@gmail.com"),
       person(given = "Annekathrin",
-             family = "Ludt",
+             family = "Nedwed",
              role = c("aut"),
              email = "anneludt@uni-mainz.de"),
       person(given = "Alicia",
-             family = "Poplawski",
+             family = "Schulze",
              role = c("aut"),
              email = "alpoplaw@uni-mainz.de")
      )
-Description: What the package does (one paragraph).
+Description: This package takes a number as input and returns a reason why we, Bioinf group members, appreciate Fede.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Imports:
+    BiocBaseUtils
+Suggests:
+    knitr,
+    rmarkdown
+URL: https://github.com/NajlaAbassi/TimeToFedebrate
 VignetteBuilder: knitr
