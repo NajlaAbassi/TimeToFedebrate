@@ -1,14 +1,20 @@
 #' we "depend" on you
 #'
-#' @param reason a numeric equals your age representing the reasons why we appreciate you 
-#'
-#' @return a reason why we appreciate you
+#' @param reason a numeric between 1 and 41 indicating both why we appreciate you and referring to your age
+#' 
+#' @return a character string containing the reason why we appreciate you
 #' @export
+#' 
+#' @importFrom BiocBaseUtils isScalarNumber
 #'
 #' @examples
 #' we_depend_on_you(4)
 #' 
 we_depend_on_you <- function(reason) {
+  
+  # checks on argument
+  stopifnot(BiocBaseUtils::isScalarNumber(reason))
+  
   reasons <- c(
     "you have the answer for almost every question",
     "of your cooking skills",
@@ -29,7 +35,7 @@ we_depend_on_you <- function(reason) {
     "iSEEu everyday",
     "we like to drink GENE TONIC with you",
     "you will one day lead the dependencies in wining pubquiz",
-    ": there are three in Caciocavallo , two in Lecco, none in the IMBEI, but one in Federico",
+    ": there are three in Caciocavallo , two in Lecco, none in the IMBEI, but there is one in Federico",
     "you have the greatest Mate collection ",
     "you have a dream, that one day the server session is infinite",
     "you lead the group ANAL-A-omics",
@@ -50,7 +56,7 @@ we_depend_on_you <- function(reason) {
     "you remember every name",
     "you have forensic eyes",
     "you have a cool weapon behind your door",
-    "you have an onion on your … (<a href='https://youtu.be/3Y3dWfa1sCo?si=UVybEzIAkc0eNFVD'>click here</a>)"
+    "you have an onion on your … (visit: https://youtu.be/3Y3dWfa1sCo?si=UVybEzIAkc0eNFVD)"
   )
   
   if (reason > 0 && reason <= length(reasons)) {
