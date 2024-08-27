@@ -1,7 +1,7 @@
 ---
 title: "41 reasons..."
 author: >
-  Najla Abassi, Lotta Wagner, Ahmed Salah, AnneKathrin Ludt and Alicia Poplawski </br>
+  Najla Abassi, Lotta Wagner, Ahmed Salah, AnneKathrin Nedwed and Alicia Schulze </br>
   University Medical Center - Mainz (Germany)
 output: 
   html_document:
@@ -32,7 +32,7 @@ Then, all you have to do is play with numbers. Let's start with reason number 1:
 we_depend_on_you(1)
 ```
 
-do you already get the concept :)?
+do you already get why this vignette is called 41 reasons :)? Let's try with another number:
 
 ```{r}
 we_depend_on_you(5)
