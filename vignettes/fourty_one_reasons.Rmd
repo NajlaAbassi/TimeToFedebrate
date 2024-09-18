@@ -40,5 +40,7 @@ we_depend_on_you(5)
 
 At this point, the console is your friend in discovering what the rest of the numbers hold ;)
 
+![](../img/your_turn.gif)
+
 Happy Birthday, Federico, from all of us in the Bioinformatics Group! ❤️ 🎉
 
