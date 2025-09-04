@@ -7,7 +7,7 @@
 we_depend_on_you(reason)
 }
 \arguments{
-\item{reason}{a numeric between 1 and 41 indicating both why we appreciate you and referring to your age}
+\item{reason}{a numeric between 1 and 42 indicating both why we appreciate you and referring to your age}
 }
 \value{
 a character string containing the reason why we appreciate you

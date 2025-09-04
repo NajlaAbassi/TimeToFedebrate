@@ -1,6 +1,6 @@
 #' we "depend" on you
 #'
-#' @param reason a numeric between 1 and 41 indicating both why we appreciate you and referring to your age
+#' @param reason a numeric between 1 and 42 indicating both why we appreciate you and referring to your age
 #' 
 #' @return a character string containing the reason why we appreciate you
 #' @export
@@ -56,13 +56,13 @@ we_depend_on_you <- function(reason) {
     "you remember every name",
     "you have forensic eyes",
     "you have a cool weapon behind your door",
-    "you have an onion on your … (visit: https://youtu.be/3Y3dWfa1sCo?si=UVybEzIAkc0eNFVD)"
+    "you have an onion on your … (visit: https://youtu.be/3Y3dWfa1sCo)",
   )
   
   if (reason > 0 && reason <= length(reasons)) {
     return(paste("... because ", reasons[reason]))
   } else {
-    return("bro you're 41, so it's 41 reasons... what are you looking for?")
+    return("bro you're 42, which is already the answer to everything... what more do you want?")
   }
   
 }
