@@ -40,7 +40,15 @@ we_depend_on_you(5)
 
 At this point, the console is your friend in discovering what the rest of the numbers hold ;)
 
-![](../img/your_turn.gif)
+![](../inst/www/your_turn.gif)
+
+Maybe some cake? It's safe :D
+
+```{r bd_cake}
+# get the cake and a random msg
+birthday_cake()
+```
+
 
 Happy Birthday, Federico, from all of us in the Bioinformatics Group! ❤️ 🎉
 
