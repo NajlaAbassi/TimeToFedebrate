@@ -57,6 +57,7 @@ we_depend_on_you <- function(reason) {
     "you have forensic eyes",
     "you have a cool weapon behind your door",
     "you have an onion on your … (visit: https://youtu.be/3Y3dWfa1sCo)",
+    "because that yellow shirt made us laugh, but your support makes the team thrive"
   )
   
   if (reason > 0 && reason <= length(reasons)) {
